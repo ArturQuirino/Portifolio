@@ -11,8 +11,8 @@ function Card(props) {
       <div className="card__cover">{title}</div>
       <div className="card__content">
         <span className="card__title">{description}</span>
-        <a href={website} className="card__button">Visit Website</a>
-        <a href={sourceCode} className="card__button">Source Code</a>
+        <a href={website} target="_blank" rel="noopener noreferrer" className="card__button">Visit Website</a>
+        <a href={sourceCode} target="_blank" rel="noopener noreferrer" className="card__button">Source Code</a>
       </div>
     </div>
   );

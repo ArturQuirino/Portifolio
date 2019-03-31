@@ -5,9 +5,9 @@ import './Projects.css';
 function Projects() {
   const myProjects = [
     {
-      title: "Artur's Saga",
-      website: 'google.com',
-      sourceCode: 'google.com',
+      title: "Arturito's Saga",
+      website: 'https://s3-sa-east-1.amazonaws.com/bucketartur/arturitosgame/index.html',
+      sourceCode: 'https://github.com/ArturQuirino/ArcadeGame',
       description: 'A game where you need to help Artur to get his coffee and avoid bugs.',
     },
     {
