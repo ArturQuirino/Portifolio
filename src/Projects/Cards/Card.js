@@ -3,7 +3,9 @@ import PropTypes from 'prop-types';
 import './Card.css';
 
 function Card(props) {
-  const { title, website, sourceCode, description } = props;
+  const {
+    title, website, sourceCode, description,
+  } = props;
   return (
     <div className="card">
       <div className="card__cover">{title}</div>

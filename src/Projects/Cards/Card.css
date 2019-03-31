@@ -1,7 +1,8 @@
 .card {
-    min-width: 500px;
+    min-width: 450px;
     min-height: 300px;
-    position: relative
+    position: relative;
+    margin: 24px;
 }
 
 .card__cover {
