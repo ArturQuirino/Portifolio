@@ -1,0 +1,6 @@
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 60px;
+    justify-content: center;
+}
